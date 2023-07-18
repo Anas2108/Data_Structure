@@ -121,25 +121,7 @@ size++;
 
 void right_rotate(int times){
 
-// for(int counter=0;counter<times;counter++){
-// for(int i=size-1;i>=0;i--){
 
-// arr[i+1]=arr[i];
-
-// }
-
-// arr[0]=arr[size];
-// }
-// int *arr2=new int[capacity];
-
-// for (int i = 0; i < size; i++)
-// {
-//     arr2[i]=arr[i];
-// }
-
-// swap(arr,arr2);
-
-// delete[]arr2;
 
 int last_element;
 for(int counter=0;counter<times;counter++){
@@ -242,17 +224,6 @@ return -1;
 
 int main(){
 
-Vector v(5);
-for(int i=0;i<5;i++){
-
-    v.set(i,i);
-}
-
-//cout<<v.find_transposition(1)<<"\n";
-
-v.pop(4);
-
-v.print();
-
+/*Test the Vector Class*/
 
 }
